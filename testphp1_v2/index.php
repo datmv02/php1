@@ -50,7 +50,7 @@ $index=1;
                             <td><?=$u['car_description']?></td>
                             <td>
                                 <a href="edit-product.php?id=<?=$u['car_id']?>" class="btn btn-warning">Edit</a>
-                                <a onclick="confirm('Are you sure')" href="remove.php?id=<?=$u['car_id']?>" class="btn btn-danger">Delete</a>
+                                <a onclick="return confirm('Are you sure delete')" href="remove.php?id=<?=$u['car_id']?>" class="btn btn-danger">Delete</a>
 
                             </td>
                         </tr>
